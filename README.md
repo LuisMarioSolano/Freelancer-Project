@@ -1,3 +1,3 @@
 # FREELANCER PROJECT
 
-This is a projecte for people who are freelancer
+This is a projecte for people who are freelancer                                    
