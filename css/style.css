@@ -44,6 +44,11 @@ body {
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
+}
+
+.boton:hover {
+    cursor: pointer;
 }
 
 @media (min-width : 480px) {
@@ -83,6 +88,25 @@ h3 {
 /* Titulos */
 .titulo span {
     font-size: 2rem;
+}
+
+/* Utilidades */
+.w-sm-100 {
+    width: 100%;
+}
+
+@media (min-width : 768px) {
+    .w-sm-100 {
+        width: auto;
+    }
+}
+
+.alinear-derecha {
+    justify-content: end;
+}
+
+.flex {
+    display: flex;
 }
 
 /* Navegación Principal */
@@ -152,8 +176,8 @@ h3 {
 }
 
 /* Servicios */
-@media (min-width : 768px) {
-    .servicios{
+@media (min-width: 768px) {
+    .servicios {
         display: grid;
         /* 
         Son lo mismo
@@ -190,4 +214,63 @@ h3 {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: center;
+}
+
+/* Contacto */
+
+.formulario {
+    background-color: var(--gris);
+    width: min(60rem, 100%);
+    /**Utilizar el valor mas pequeño **/
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario fieldset {
+    border: none;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
+}
+
+/* @media (min-width: 768px) {
+    .contenedor-campos {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 1rem;
+    }
+} */
+
+.campo {
+    margin-bottom: 1rem;
+}
+
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campo textarea {
+    height: 20rem;
+}
+
+.input-text {
+    width: 100%;
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+/* footer */
+.footer{
+    text-align: center;
 }
