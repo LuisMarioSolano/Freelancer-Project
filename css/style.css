@@ -57,6 +57,8 @@ body {
     -moz-box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.55);
     box-shadow: 0px 5px 15px 0px rgba(112, 112, 112, 0.55);
     background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
 }
 
 /* Tipografìa */
@@ -122,6 +124,7 @@ h3 {
     background-size: cover;
     height: 450px;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero {
