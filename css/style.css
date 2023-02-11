@@ -150,3 +150,16 @@ h3 {
     display: flex;
     align-items: flex-end;
 }
+
+/* Servicios */
+@media (min-width : 768px) {
+    .servicios{
+        display: grid;
+        /* 
+        Son lo mismo
+        grid-template-columns: 33.3% 33.3% 33.3%;
+        grid-template-columns: 1fr 1fr 1fr; 
+        */
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
